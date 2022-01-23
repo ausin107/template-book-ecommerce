@@ -3,7 +3,7 @@ import "./css/Slider.css"
 
 const Slider = () => {
   return (
-    <div className='banner d-flex justify-content-center align-items-center flex-column'>
+    <div className='banner d-flex justify-content-center align-items-center flex-column text-white'>
         <h2>
         Chào mừng đến với WebDev STORE
         </h2>
