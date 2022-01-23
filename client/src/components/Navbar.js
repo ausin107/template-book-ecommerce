@@ -23,15 +23,15 @@ const Navbar = () => {
 						</div>
 					</div> */}
 					<a href="/cart" className="cart-icon">
-						<i className="material-icons">shopping_cart</i>
+						<i className="btn material-icons">shopping_cart</i>
 					</a>
 				</div>
 				<form className="navbar-form form-inline">
 					<div className="input-group search-box">								
 						<input type="text" id="search" className="form-control" placeholder="Tìm kiếm sản phẩm..."/>
 						<div className="input-group-append">
-							<span className="input-group-text">
-								<i className="material-icons">&#xE8B6;</i>
+							<span className=" input-group-text">
+								<i className="btn material-icons">&#xE8B6;</i>
 							</span>
 						</div>
 					</div>
