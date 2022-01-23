@@ -24,7 +24,7 @@
                   </div>
                   <div className="product-info smart-form mt-5">
                     <div className="row">
-                      <div className="col-md-6 col-sm-6 col-xs-6"> 
+                      <div className="col-md-12 col-sm-12 col-xs-12"> 
                         <a href="#" className="btn btn-success btn-vn mt-15">Thêm vào giỏ hàng</a>
                       </div>
                     </div>
