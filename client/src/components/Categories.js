@@ -30,11 +30,12 @@ const Categories = () => {
                 <h6 className="font-weight-bold">Thể loại</h6>
                 <div id="orange"><span className="fa fa-minus"></span></div>
                 <form>
-                    <div className="form-group">  <a >Fiction</a> </div>
-                    <div className="form-group">  <a >Nonfiction</a> </div>
-                    <div className="form-group">  <a >eBooks & NOOK</a> </div>
-                    <div className="form-group">  <a >Teens & YA</a> </div>
-                    <div className="form-group">  <a >Kids</a> </div>
+                    <div className="form-group">  <a >Truyện tranh</a> </div>
+                    <div className="form-group">  <a >Sách viết về người thật việc thật</a> </div>
+                    <div className="form-group">  <a >Từ điển</a> </div>
+                    <div className="form-group">  <a >Tiểu thuyết</a> </div>
+                    <div className="form-group">  <a >Sách khoa học</a> </div>
+                    <div className="form-group">  <a >Sách trinh thám</a> </div>
                 </form>
             </div>
             
