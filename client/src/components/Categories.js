@@ -27,7 +27,7 @@ const Categories = () => {
   return (
         <section id="sidebar" className="col-xs-12 col-md-2 ">
             <div className="py-2 border-bottom ml-3">
-                <h6 className="font-weight-bold">Categories</h6>
+                <h6 className="font-weight-bold">Thể loại</h6>
                 <div id="orange"><span className="fa fa-minus"></span></div>
                 <form>
                     <div className="form-group">  <a >Fiction</a> </div>
