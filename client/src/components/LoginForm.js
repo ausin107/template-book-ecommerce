@@ -8,28 +8,28 @@ const LoginForm = () => {
         <p>― Marcus Tullius Cicero</p>
         </div>
         <div className="row px-3 mb-4">
-        <h2 className="mb-0 mr-4 mt-2">Welcome Back!</h2>
+        <h2 className="mb-0 mr-4 mt-2">Chào mừng quay trở lại!</h2>
         </div>
         <div className="row px-3">
         <label className="mb-1">
-            <h6 className="mb-0 text-sm">Email Address</h6>
+            <h6 className="mb-0 text-sm">Tài khoản Email</h6>
         </label>
         <input
             className="mb-4"
             type="text"
             name="email"
-            placeholder="Enter a valid email address"
+            placeholder="Nhập tài khoản email của bạn"
             required
         />
         </div>
         <div className="row px-3">
         <label className="mb-1">
-            <h6 className="mb-0 text-sm">Password</h6>
+            <h6 className="mb-0 text-sm">Mật khẩu</h6>
         </label>
         <input
             type="password"
             name="password"
-            placeholder="Enter password"
+            placeholder="Nhập mật khẩu"
             required
         />
         </div>
@@ -42,21 +42,21 @@ const LoginForm = () => {
             className="custom-control-input"
             />
             <label for="chk1" className="custom-control-label text-sm">
-            Remember me
+            Ghi nhớ tôi
             </label>
         </div>
         <a href="/forgot-password" className="ml-auto mb-0 text-sm mr-2">
-            Forgot Password?
+            Quên mật khẩu?
         </a>
         </div>
         <div className="row mb-3 px-3">
         <button type="submit" className="btn btn-blue text-center">
-            Login
+            Đăng nhập
         </button>
         </div>
         <div className="row mb-4 px-3">
         <small className="font-weight-bold">
-            Don't have an account? <a href='/register' className="text-danger ">Register</a>
+            Chưa có tài khoản? <a href='/register' className="text-danger ">Đăng kí</a>
         </small>
         </div>
     </div>

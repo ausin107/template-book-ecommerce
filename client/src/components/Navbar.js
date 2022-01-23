@@ -12,7 +12,7 @@ const Navbar = () => {
 			</button>
 			<div id="navbarCollapse" className="collapse navbar-collapse justify-content-start">
 				<div className="navbar-nav">
-					<a href="/" className="nav-item nav-link">Home</a>
+					<a href="/" className="nav-item nav-link">Trang chủ</a>
 					{/* <div className="nav-item dropdown">
 						<a href="#" data-toggle="dropdown" className="nav-item nav-link dropdown-toggle">Services</a>
 						<div className="dropdown-menu">					
@@ -28,7 +28,7 @@ const Navbar = () => {
 				</div>
 				<form className="navbar-form form-inline">
 					<div className="input-group search-box">								
-						<input type="text" id="search" className="form-control" placeholder="Search here..."/>
+						<input type="text" id="search" className="form-control" placeholder="Tìm kiếm sản phẩm..."/>
 						<div className="input-group-append">
 							<span className="input-group-text">
 								<i className="material-icons">&#xE8B6;</i>
@@ -39,11 +39,11 @@ const Navbar = () => {
 				
 				<div className="navbar-nav ml-auto action-buttons">
 					<div className="nav-item dropdown">
-						<a href="/login" className="nav-link dropdown-toggle mr-4">Login</a>
+						<a href="/login" className="nav-link dropdown-toggle mr-4">Đăng nhập</a>
 						
 					</div>
 					<div className="nav-item dropdown">
-						<a href="/register" className="btn btn-primary dropdown-toggle sign-up-btn">Sign up</a>
+						<a href="/register" className="btn btn-primary dropdown-toggle sign-up-btn">Đăng kí</a>
 					</div>
 				</div>
 			</div>

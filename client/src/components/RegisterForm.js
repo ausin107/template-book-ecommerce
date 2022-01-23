@@ -8,39 +8,39 @@ const RegisterForm = () => {
             <p>― Marcus Tullius Cicero</p>
         </div>
             <div className="row px-3 mb-4">
-                <h2 className="mb-0 mr-4 mt-2">Do it now!</h2>
+                <h2 className="mb-0 mr-4 mt-2">Đăng kí ngay!</h2>
             </div>
             <div className="row px-3">
             <label className="mb-1">
-                <h6 className="mb-0 text-sm">Email Address</h6>
+                <h6 className="mb-0 text-sm">Tài khoản email</h6>
             </label>
             <input
                 className="mb-4"
                 type="text"
                 name="email"
-                placeholder="Enter a valid email address"
+                placeholder="Nhập tài khoản email của bạn"
                 required
             />
             </div>
             <div className="row px-3">
             <label className="mb-1">
-                <h6 className="mb-0 text-sm">Password</h6>
+                <h6 className="mb-0 text-sm">Mật khẩu</h6>
             </label>
             <input
                 type="password"
                 name="password"
-                placeholder="Enter password"
+                placeholder="Nhập mật khẩu"
                 required
             />
             </div>
             <div className="row px-3 mt-3">
             <label className="mb-1">
-                <h6 className="mb-0 text-sm">Confirm password</h6>
+                <h6 className="mb-0 text-sm">Nhập mật khẩu lần nữa</h6>
             </label>
             <input
                 type="password"
                 name="confirmPassword"
-                placeholder="Confirm password"
+                placeholder="Nhập mật khẩu"
                 required
             />
             </div>
@@ -53,7 +53,7 @@ const RegisterForm = () => {
                 className="custom-control-input"
                 />
                 <label for="chk1" className="custom-control-label text-sm">
-                Remember me
+                Ghi nhớ tôi
                 </label>
             </div>
             {/* <a href="#" className="ml-auto mb-0 text-sm mr-2">
@@ -62,12 +62,12 @@ const RegisterForm = () => {
             </div>
             <div className="row mb-3 px-3">
             <button type="submit" className="btn btn-blue text-center">
-                Register
+                Đăng kí
             </button>
             </div>
             <div className="row mb-4 px-3">
             <small className="font-weight-bold">
-                Already have an account? <a href='/login' className="text-danger ">Login</a>
+                Đã có tài khoản? <a href='/login' className="text-danger ">Đăng nhập</a>
             </small>
         </div>
     </div>
