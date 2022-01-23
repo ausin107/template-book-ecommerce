@@ -129,12 +129,12 @@ const Cart = () => {
                   <div className="row d-flex px-3 radio">
                     {" "}
                     <img className="pay" src="https://i.imgur.com/WIAP9Ku.jpg" />
-                    <p className="my-auto">Credit Card</p>
+                    <p className="my-auto">Thẻ tín dụng</p>
                   </div>
                   <div className="row d-flex px-3 radio gray">
                     {" "}
                     <img className="pay" src="https://i.imgur.com/OdxcctP.jpg" />
-                    <p className="my-auto">Debit Card</p>
+                    <p className="my-auto">Thẻ ghi nợ</p>
                   </div>
                   <div className="row d-flex px-3 radio gray mb-3">
                     {" "}

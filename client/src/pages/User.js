@@ -104,9 +104,10 @@ const Admin = () => {
                 <div className="col-lg-4 mt-2">
                   <div className="row d-flex justify-content-between px-4">
                     <p className="mb-1 text-left">Tổng cộng</p>
+                    <h6 className="mb-1 text-right">2</h6>
                     <h6 className="mb-1 text-right">$23.49</h6>
                   </div>
-                  <div className="row d-flex justify-content-between px-4">
+                  {/* <div className="row d-flex justify-content-between px-4">
                     <p className="mb-1 text-left">Phí Ship</p>
                     <h6 className="mb-1 text-right">$2.99</h6>
                   </div>
@@ -116,15 +117,15 @@ const Admin = () => {
                   >
                     <p className="mb-1 text-left">Thành tiền</p>
                     <h6 className="mb-1 text-right">$26.48</h6>
-                  </div>{" "}
-                  <button className="btn-block btn-blue">
+                  </div>{" "} */}
+                  {/* <button className="btn-block btn-blue">
                     {" "}
                     <span>
                       {" "}
                       <span id="checkout">Thanh toán</span>{" "}
                       <span id="check-amt">$26.48</span>{" "}
                     </span>{" "}
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

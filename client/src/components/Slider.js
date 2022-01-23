@@ -7,7 +7,7 @@ const Slider = () => {
         <h2>
         Chào mừng đến với WebDev STORE
         </h2>
-        <h1  className="">Tìm kiếm những cuốn sách tuyệt cú mèo của bạn ngay bên dưới:</h1>
+        <h1  className="">Nơi của những cuốn sách tuyệt vời</h1>
     </div>
   );
 };
