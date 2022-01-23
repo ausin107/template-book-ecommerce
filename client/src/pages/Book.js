@@ -45,10 +45,10 @@ const Book = () => {
                                 <div className="product_description">
                                     <div className="product_name">{title}</div>
                                     <div> <span className="product_price">{price}đ</span></div>
-                                    <div> <span className="product_saved">In Stock</span> <span style={{ color: 'black' }}><span> </span></span></div>
+                                    <div> <span className="product_saved">Còn Hàng</span> <span style={{ color: 'black' }}><span> </span></span></div>
                                     <hr className="singleline" />
                                     <div className="row row-underline">
-                                        <div className="col-md-6"> <span className=" deal-text">Description</span> </div>
+                                        <div className="col-md-6"> <span className=" deal-text">Mô tả</span> </div>
                                         <div className="col-md-6"> <a href="#" data-abc="true"> <span className="ml-auto view-all" /> </a> </div>
                                     </div>
                                     <div className="row lh-35">
@@ -63,14 +63,14 @@ const Book = () => {
                                     </form></div>
                                 <div className="row">
                                     <div className="col-xs-6" style={{ marginLeft: '13px' }}>
-                                        <div className="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value={state} onChange={onChange} />
+                                        <div className="product_quantity"> <span>Số lượng: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value={state} onChange={onChange} />
                                             <div className="quantity_buttons">
                                                 <div id="quantity_inc_button" className="quantity_inc quantity_control" onClick={handleIncrease}><i className="fas fa-chevron-up" /></div>
                                                 <div id="quantity_dec_button" className="quantity_dec quantity_control" onClick={handleDecrease}><i className="fas fa-chevron-down" /></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-6"> <button type="button" className="btn btn-success shop-button" onClick={handleAdd}>Add to Cart</button>
+                                    <div className="col-xs-6"> <button type="button" className="btn btn-success btn-vn shop-button" onClick={handleAdd}>Thêm vào giỏ hàng</button>
                                     </div>
                                 </div>
                             </div>

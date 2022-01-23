@@ -1,7 +1,12 @@
 .container {
     margin-top: 0px;
 }
-
+.btn-vn{
+    width: 180px;
+}
+.mt-15{
+    margin-top: 15px;
+}
 .product-content {
     border: 2px solid #dfe5e9;
     margin-bottom: 20px;
